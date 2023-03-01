@@ -1,0 +1,38 @@
+.section-card{
+	width: 100%;
+	display: flex;
+
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.conteiner-card{
+	padding: 15px;
+	text-align: center;
+	
+}
+.conteiner-card h2{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.conteiner-card p{
+	text-align: start;
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
