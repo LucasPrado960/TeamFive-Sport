@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -78,4 +84,43 @@ a {
 .color 
 {
 	color: #676766;
+}
+
+/*Formulario*/
+
+.form-container h1 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.form-container {
+    
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.form-control-modified {
+    width: 400px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+.add-space {
+    margin-bottom: 20px;
+}
+
+.input-group-text {
+    height: 50%;
 }
