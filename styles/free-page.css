@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* aca comienza el footer */
+=======
+<<<<<<< HEAD
+>>>>>>> feat/free-page
 body {
 	font-family: 'Roboto', sans-serif;
 	
@@ -32,6 +36,7 @@ a {
     text-decoration: none;
     font-size: 1.5rem;
     color: #f1f1f1;
+<<<<<<< HEAD
 }
 .icono {
 	color: #393b3e;
@@ -41,3 +46,13 @@ a {
 	color: #676766;
 }
 /* aca termina el footer */
+=======
+=======
+/* aqui comienza los estilos de la free-page */
+.card-free-page {
+    background-color:#d9d9d9;
+    height: 200px;
+    margin:  0 20px ;
+>>>>>>> 8f761b75704d5dd075a45c419978637b124356bf
+}
+>>>>>>> feat/free-page
