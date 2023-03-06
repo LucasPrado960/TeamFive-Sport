@@ -23,3 +23,36 @@ a {
     font-size: 1.5rem;
     color: #f1f1f1;
 }
+
+.card-thematic-page{
+    background-color: #d9d9d9;
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 0px 100px;
+} 
+
+iframe{
+    margin: 20px;
+    padding: 10px;
+}
+
+.maps{
+    display: flex;
+}
+
+h1{
+    margin-bottom: 40px;
+    padding: 30px;
+    text-align:center;
+    color: #1A73E8;
+}
+
+h2{
+     margin-bottom: 15px;
+}
+
+.list{
+    margin: 40px;
+}
