@@ -4,7 +4,7 @@
     padding: 0;
     border: 0;
 }
-
+/* aqui comienza el footer */
 body {
 	font-family: 'Roboto', sans-serif;
 	
@@ -27,10 +27,27 @@ li {
 }
 a {
     text-decoration: none;
+    font-size: 1.1rem;
+    color: #f1f1f1;
+}
+footer {
+    background-color:#37baec;
+	padding:20px;
+}
+a {
+    text-decoration: none;
     font-size: 1.5rem;
     color: #f1f1f1;
 }
+.icono {
+	color: #393b3e;
+}
+.color 
+{
+	color: #676766;
+}
 
+/* aqui termina el footer */
 .section-card{
 	width: 100%;
 	display: flex;
@@ -68,22 +85,6 @@ a {
 	color: #6a6a6a;
 	font-size: 14px;
 	margin-bottom: 5px;
-}
-footer {
-    background-color:#37baec;
-	padding:20px;
-}
-a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #f1f1f1;
-}
-.icono {
-	color: #393b3e;
-}
-.color 
-{
-	color: #676766;
 }
 
 /*Formulario*/
