@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	font-family: 'Roboto', sans-serif;
 	
@@ -22,4 +23,11 @@ a {
     text-decoration: none;
     font-size: 1.5rem;
     color: #f1f1f1;
+=======
+/* aqui comienza los estilos de la free-page */
+.card-free-page {
+    background-color:#d9d9d9;
+    height: 200px;
+    margin:  0 20px ;
+>>>>>>> 8f761b75704d5dd075a45c419978637b124356bf
 }
