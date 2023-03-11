@@ -53,14 +53,19 @@ iframe{
 }
 
 h1{
-    margin-bottom: 40px;
-    padding: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
     text-align:center;
     color: #1A73E8;
 }
 
 h2{
-     margin-bottom: 15px;
+     margin-bottom: 60px;
+     color: #1A73E8;
+}
+
+h3{
+    margin-bottom: 70px;
 }
 
 .list{
@@ -74,3 +79,18 @@ h2{
 	color: #676766;
 }
 /* aca termina el footer */
+
+.data{
+    justify-content:space-between;
+    color: #4a8ce2;
+}
+
+.hockey{
+    color: black;
+    display: flex;
+    justify-content:center;
+}
+
+.titles{
+    margin-bottom: 50px;
+}
