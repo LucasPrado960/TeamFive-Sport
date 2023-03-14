@@ -1,4 +1,11 @@
 /* aca comienza el footer */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -37,20 +44,12 @@ a {
 .card-thematic-page{
     background-color: #d9d9d9;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 main {
     padding: 0px 100px;
 } 
-
-iframe{
-    margin: 20px;
-    padding: 10px;
-}
-
-.maps{
-    display: flex;
-}
 
 h1{
     margin-bottom: 20px;
@@ -97,4 +96,20 @@ h3{
 
 .link{
     color: black;
+}
+
+.container-maps{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.maps{
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    
+
 }

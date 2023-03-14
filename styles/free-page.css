@@ -1,22 +1,15 @@
-<<<<<<< HEAD
-/* aca comienza el footer */
-=======
-<<<<<<< HEAD
->>>>>>> feat/free-page
-body {
-	font-family: 'Roboto', sans-serif;
 
-	
-	
+body{
+	font-family: 'Roboto', sans-serif;
 }
+
 header {
     padding: 2rem;
     background-color: #37baec ;
-	
-    
 }
+
 main {
-    padding: 0px 30px;
+    padding: 10px 0px 0px 0px;
 
 }
 ul {
@@ -31,7 +24,6 @@ li {
 a {
     text-decoration: none;
     font-size: 1.1rem;
-<<<<<<< HEAD
     color: #f1f1f1;
 }
 footer {
@@ -41,11 +33,9 @@ footer {
 a {
     text-decoration: none;
     font-size: 1.5rem;
-=======
->>>>>>> feat/navbar
     color: #f1f1f1;
-<<<<<<< HEAD
 }
+
 .icono {
 	color: #393b3e;
 }
@@ -53,12 +43,14 @@ a {
 {
 	color: #676766;
 }
-/* aca termina el footer */
-=======
-=======
-/* aqui comienza los estilos de la free-page */
+
 .card-free-page {
    background-color: #d9d9d9; 
    padding: 20px;
 }
->>>>>>> feat/free-page
+
+.navbar-sport{
+    height: 100px;
+    border-top: 1px solid #676766;
+    border-bottom: 1px solid #676766; 
+}
