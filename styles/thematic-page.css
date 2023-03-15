@@ -1,33 +1,33 @@
 /* aca comienza el footer */
 body {
 	font-family: 'Roboto', sans-serif;
-	
-	
 }
+
 header {
     padding: 2rem;
     background-color: #37baec ;
-	
-    
 }
+
 ul {
     display: flex;
     justify-content: right;
-
 }
+
 li {
     list-style: none;
-
 }
+
 a {
     text-decoration: none;
     font-size: 1.1rem;
     color: #f1f1f1;
 }
+
 footer {
     background-color:#37baec;
 	padding:20px;
 }
+
 a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -54,13 +54,13 @@ iframe{
 
 h1{
     margin-bottom: 20px;
-    padding: 0px;
+    padding: 40px;
     text-align:center;
     color: #1A73E8;
 }
 
 h2{
-     margin-bottom: 60px;
+     margin-bottom: 40px;
      color: #1A73E8;
 }
 
@@ -92,5 +92,9 @@ h3{
 }
 
 .titles{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.link{
+    color: black;
 }
