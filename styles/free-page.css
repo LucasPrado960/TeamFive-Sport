@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-/* aca comienza el footer */
-=======
-<<<<<<< HEAD
->>>>>>> feat/free-page
 body {
-	font-family: 'Roboto', sans-serif;
-
-	
-	
+	font-family: 'Roboto', sans-serif;	
+    margin: 0;
+    padding: 0;
 }
+h2{
+    font-size: 60px;
+    border-radius: 20px;
+    background-color: #d9d9d9;
+   }
 header {
-    padding: 2rem;
-    background-color: #37baec ;
-	
-    
+    padding: 10px;
+    background-color: #37baec ; 
 }
 main {
+
     padding: 0px 30px;
 
 }
@@ -31,7 +29,6 @@ li {
 a {
     text-decoration: none;
     font-size: 1.1rem;
-<<<<<<< HEAD
     color: #f1f1f1;
 }
 footer {
@@ -41,10 +38,7 @@ footer {
 a {
     text-decoration: none;
     font-size: 1.5rem;
-=======
->>>>>>> feat/navbar
     color: #f1f1f1;
-<<<<<<< HEAD
 }
 .icono {
 	color: #393b3e;
@@ -53,12 +47,36 @@ a {
 {
 	color: #676766;
 }
-/* aca termina el footer */
-=======
-=======
-/* aqui comienza los estilos de la free-page */
-.card-free-page {
-   background-color: #d9d9d9; 
-   padding: 20px;
-}
->>>>>>> feat/free-page
+.navbar-sports{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   
+   .navbar-sports-item{ 
+   }
+   
+   .sports-sections{
+    width: 100%;
+    height: 500px;
+   }
+   
+   .sports-titles{
+    height: 20%;
+   }
+   
+   .news-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+   }
+
