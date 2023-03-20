@@ -21,23 +21,37 @@
 
 <body>
 
-    <header>
-        <nav class="row">
-            <div class="col-md-6">
-               
-                 <img src="./assets/images/logo.png" alt="logo" width="100px" > 
-            </div>
-            <div class="col-md-6">
-                <ul class="row">
-                    <li class="col-md-4 text-center"> <a href="./index.html">Inicio</a></li>
-                    <li class="col-md-4 text-center"> <a href="./pages/thematic-page.html">Pagina tematica </a></li>
-                    <li class="col-md-4 text-center"> <a href="./pages/free-page.html">Pagina libre</a></li>
-                </ul>
-
-            </div>
+    <header class="navbar navbar-expand-lg">
+        <nav class="container-fluid">
+          <a class="navbar-brand" href="./thematic-page.html">
+            <img class="logo" src="../assets/images/logo.png" alt="logo"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navbar-major">
+              <li class="nav-item">
+                <a class="menu-link" href="./pages/thematic-page.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu-link" href="./pages/free-page.html">Pagina libre</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu-link link-active" aria-current="page" href="./index.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
         </nav>
     </header>
-    <main>
         <section>
             <!-- aqui va la info de rolling -->
         </section>
