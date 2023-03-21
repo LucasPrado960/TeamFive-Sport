@@ -6,14 +6,13 @@
 }
 header {
   padding: 10px;
-  background-color: #37baec;
+  background-color: #212529;
 
 }
 
 main {
   padding: 0px 30px 30px 30px;
 }
-/* aqui comienza el footer */
 body {
 font-family: 'Roboto', sans-serif;
 
@@ -28,10 +27,7 @@ a {
   text-decoration: none;
 }
 
-footer {
-  background-color:#37baec;
-padding:20px;
-}
+/*navbar*/
 .navbar-major{
   width: 60%;
   height: 120px;
@@ -47,7 +43,7 @@ padding:20px;
 }
 
 .menu-link{
-  color: #ffffff;
+  color: #e5ba72;
   font-size: 30px;
 }
 
@@ -67,7 +63,7 @@ padding:20px;
 
 
 
-/* aqui termina el footer */
+/* Nosotros */
 
 .card-title{
   width: 100%;
@@ -179,12 +175,17 @@ margin-bottom: 5px;
   justify-content: center;
 }
 /* footer */
+
+footer {
+  background-color: #212529;
+padding:20px;
+}
 .icono {
   color: #393b3e;
 }
 
 .footer-info-color {
-  color: #444442;
+  color: #e5ba72;
   
 }
 .footer-info {
