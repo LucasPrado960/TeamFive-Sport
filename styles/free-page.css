@@ -60,29 +60,23 @@ a {
 }
 
 /* aca termina */
-.card-img {
-  background: #fff;
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  height: calc(28vh - 90px);
-}
-
 .navbar-sports {
   width: 80%;
-  height: 80px;
-  margin: 1% 10%;
+  height: 90px;
+  margin: 0% 10%;
   border-bottom: 2px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 5px solid #e5ba72;
 }
 
 .navbar-sports img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  margin: 7.5px 0;
 }
 
 .sports-titles {
