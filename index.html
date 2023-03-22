@@ -5,25 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Roboto+Condensed:wght@300&display=swap"
-    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./styles/styles.css">
-  <title>Inicio</title>
+  <link rel="stylesheet" href="./styles/thematic-page.css">
+  <title>Document</title>
 </head>
 
 <body>
-
   <header class="navbar navbar-expand-lg">
     <nav class="container-fluid">
-      <a class="navbar-brand" href="./thematic-page.html">
+      <a class="navbar-brand" href="index.html">
         <img class="logo" src="./assets/images/logo.png" alt="logo" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,170 +27,159 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav navbar-major">
           <li class="nav-item">
-            <a class="menu-link" href="./pages/thematic-page.html">Inicio</a>
+            <a class="menu-link link-active" aria-current="page" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="menu-link" href="./pages/free-page.html">Pagina libre</a>
+            <a class="menu-link" href="/pages/free-page.html">Noticias</a>
           </li>
           <li class="nav-item">
-            <a class="menu-link link-active" aria-current="page" href="./index.html">Nosotros</a>
+            <a class="menu-link" href="/pages/home.html">Nosotros</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-  <!-- 
-        <section>
-            <!-- aqui va la info de rolling -->
-  </section>
-  <!-- aqui va las cards -->
-  <main class="main-card">
-    <div class="card-title">
-      <h1>Sobre nosotros</h1>
+
+  <!-- el main es para thematic page, ver maquetado -->
+  <main>
+    <section class="navbar-sports">
+      <img width=15% src="../assets/icons/soccer.png" alt="icono futbol" />
+      <img width=15% src="../assets/icons/hockey.png" alt="icono hockey" />
+      <img width=15% src="../assets/icons/basketball.png" alt="icono basquet" />
+      <img width=15% src="../assets/icons/rugby.png" alt="icono rugby" />
+      <img width=15% src="../assets/icons/tennis.png" alt="icono tenis" />
+    </section>
+    <div class="sports-titles">
+      <h2>Club de Futbol</h2>
     </div>
-    <section class="section-card">
-      <div class="card">
-        <div class="card-img">
-          <img src="./assets/images/daniela.jpeg" />
-        </div>
-        <div class="conteiner-card">
-          <h2>Daniela Quiroga</h2>
-          <p><b>Edad:</b> 22 años.</p>
-          <p><b>Hobbies:</b> Escuchar música.</p>
-          <p><b>Descripción:</b> Estoy estudiando sistemas y el curso de rolling code. Tambien trabajo de maestra
-            particular. Vivo en tucuman.</p>
-
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img src="./assets/images/naim.jpeg" />
-        </div>
-        <div class="conteiner-card">
-          <h2>Naim Cipolla</h2>
-          <p><b>Edad:</b> 25 Años.</p>
-          <p><b>Hobbies:</b> Andar en bici, bailar, disfrutar del aire libre.</p>
-          <p><b>Descripción:</b> Cumplo el 21 de Junio,
-            vivo actualmente en Tucumán, realizo
-            trabajo de atención telefónica en call center Teleperformance.</p>
-
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img src="./assets/images/santiago.jpeg" />
-        </div>
-        <div class="conteiner-card">
-          <h2>Santiago Gonzalez</h2>
-          <p><b>Edad:</b> 21 años.</p>
-          <p><b>Hobbies:</b> Piano.</p>
-          <p><b>Descripción:</b> Estoy estudiando Ingenieria en Sistemas de la Informacion en la Tecnologica de Tucuman,
-            por ese motivo me intereso postularme a la beca de Rolling y adquirir mas experiencia de trabajo.</p>
-
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058" />
-        </div>
-        <div class="conteiner-card">
-          <h2>Lucas Prado</h2>
-          <p><b>Edad:</b> 28 Años.</p>
-          <p><b>Hobbies:</b> Tocar la guitarra, hacer deporte.</p>
-          <p><b>Descripción:</b> Me gusta emprender nuevos rumbos, por eso estoy incursionando en la programación
-            web.
-            Es todo un desafio para mi pero paso a paso voy creciendo y aprendiendo.</p>
-
-        </div>
+    <section class="clubs-sections">
+      <article class="clubs-items">
+        <h2>"Centro de Educación Fisica N° 18" (CEF18)</h2>
+        <p>¡El Centro de Educación Fisica invita a niños y adolescentes a formar parte de sus categorias!</p>
+        <p>¡Importante para tu inscripción!</p>
+        <p>Dirigido al sexo Masculino</p>
+        <p>Se realizará el día 20/03/2023</p>
+        <p>Traer DNI,fotocopia del DNI, foto carnet.</p>
+        <p>Certificado de aptitud fisica.</p>
+      </article>
+      <article class="clubs-items">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.0270965677764!2d-65.2537376778851!3d-26.807265829352012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d02b8864d6f%3A0xa6c87a80aa7351c5!2sC.E.F.%20Centro%20de%20Educaci%C3%B3n%20F%C3%ADsica%20N%C2%B0%2018!5e0!3m2!1ses-419!2sar!4v1678109187375!5m2!1ses-419!2sar"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </article>
+      <div class="clubs-items">
+        <p>Avda. Gobernador del Campo 400 (Parque 9 de Julio), San Miguel de Tucumán.</p>
+        <p>Contactanos: 0381 434-6106</p>
       </div>
     </section>
-  </main>
-  <!-- aqui va el formulario de contacto -->
-  <section class="form-container">
-    <div class="form-title">
-      <h1>Formulario de contacto</h1>
+    <div class="sports-titles">
+      <h2>Club de Hockey</h2>
     </div>
-    <div class="form-contact">
-      <div>
-        <div class="row g-3">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3">
-          </div>
-        </div>
-        <div class="input-group">
-          <span class="input-group-text">Teléfono de contacto</span>
-          <input type="text" aria-label="area-code" placeholder="(Código de area) Número sin el 15"
-            class="form-control add-space">
-        </div>
-        <fieldset class="row mb-3">
-          <legend class="col-form-label col-sm-2 pt-0">Motivo de contacto</legend>
-          <div class="col-sm-10">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-              <label class="form-check-label" for="gridRadios1">
-                Sugerencia
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-              <label class="form-check-label" for="gridRadios2">
-                Queja
-              </label>
-            </div>
-            <div class="form-check disabled">
-              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-              <label class="form-check-label" for="gridRadios3">
-                Otro motivo, especifique:
-              </label>
-              <input type="text" name="Comment" id="comment" class="form-control form-control-modified">
-            </div>
-          </div>
-
-        </fieldset>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Detalle</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mb-3">
-          <label for="formFile" class="form-label">De corresponder adjunte un archivo: </label>
-          <input class="form-control" type="file" id="formFile">
-        </div>
-        <div class="row mb-3 start">
-          <div class="col-sm-10 offset-sm-2">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck1">
-              <label class="form-check-label" for="gridCheck1">
-                Acepto recibir una copia de este formulario en mi correo.
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="form-button">
-          <button type="submit" class="btn btn-primary"><a href="/pages/contact.html">Enviar</a></button>
-        </div>
+    <section class="clubs-sections">
+      <article class="clubs-items">
+        <h2>"Los Tarcos Rugby Club Hockey"</h2>
+        <p>¡Te acercamos uno de los clubs mejor calificados en Tucumán!</p>
+        <p>¡Importante para tu inscripción!</p>
+        <p>Dirigido al sexo Masculino y Femenino.</p>
+        <p>Te esperamos todos los días de 9:00 a 22:00 Hs.</p>
+        <p>Traer DNI,fotocopia del DNI, foto carnet.</p>
+      </article>
+      <article class="clubs-items">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.981526144792!2d-65.19805908539296!3d-26.84053988315873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c00cf20f21d%3A0xac22594bf0159911!2sLos%20Tarcos%20Rugby%20Club!5e0!3m2!1ses-419!2sar!4v1678495699438!5m2!1ses-419!2sar"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </article>
+      <div class="clubs-items">
+        <p>Encontranos en: Av. Brígido Terán 500,San Miguel de Tucumán, Tucumán.</p>
+        <p>Contactanos: 0381 420-0537</p>
       </div>
+    </section>
+    <div class="sports-titles">
+      <h2>Club de Basquet</h2>
     </div>
-  </section> -->
+    <section class="clubs-sections">
+      <article class="clubs-items">
+        <h2 class="titles">"Club Belgrano de Tucumán"</h2>
+        <h3>¡Comenzá el año formando parte de nuestro club, y crecé con nosotros!</h3>
+        <p>¡Importante para tu inscripción!</p>
+        <p>Basquet Masculino:</p>
+        <p>Miercoles - Viernes de 18:00 a 21:30 Hs</p>
+        <p>Basquet Femenino</p>
+        <p>Lunes - Miercoles - Viernes de 19:30 a 20:30 Hs</p>
+      </article>
+      <article class="clubs-items">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.942657904543!2d-65.20644308495649!3d-26.841776083158333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c084389919b%3A0x7cdb3ba56e89eccf!2sClub%20Belgrano!5e0!3m2!1ses-419!2sar!4v1678555304299!5m2!1ses-419!2sar"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
+      </article>
+      <div class="clubs-items">
+        <p>Encontranos en: Juan Gregorio de las Heras 753,San Miguel de Tucumán, Tucumán.</p>
+        <p>Contactanos: 0381 586-1183 </p>
+      </div>
+    </section>
+    <div class="sports-titles">
+      <h2>Club de Rugby</h2>
+    </div>
+    <section class="clubs-sections">
+      <article class="clubs-items">
+        <h2>Tucumán Rugby Club"</h2>
+        <p>¡Tu oportunidad para ser parte de nuestra historia!.</p>
+        <p>Dirigido al sexo Masculino</p>
+        <p>Inscripciones unicamente en nuestro club</p>
+        <p>Lunes a Viernes de 18:00 a 21:30 Hs</p>
+      </article>
+      <article class="clubs-items">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14243.686019110888!2d-65.2917206!3d-26.8106279!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242d6a9ea7537%3A0xdf3a7b689ae3f5ba!2sTucuman%20Rugby%20Club!5e0!3m2!1ses-419!2sar!4v1678556367865!5m2!1ses-419!2sar"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
+      </article>
+      <div class="clubs-items">
+        <p>Salas y Valdez 1500, T4107 Yerba Buena, Tucumán.</p>
+        <p>Contactanos: 0381 425-1148</p>
+      </div>
+    </section>
+    <div class="sports-titles">
+      <h2>Club de Tenis</h2>
+    </div>
+    <section class="clubs-sections">
+      <article class="clubs-items">
+        <h2 class="titles">"Tucumán Lawn Tennis"</h2>
+        <p>¡108 Años brindando lo mejor del deporte!</p>
+        <p>¡Importante para tu inscripción!</p>
+        <p>Dirigido al sexo Masculino y Femenino:</p>
+        <p>Traer DNI,fotocopia del DNI para obtener tu crecencial</p>
+        <p>Inscripciones a partir del día 15/03/2023</p>
+      </article>
+      <article class="clubs-items">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.5868825434345!2d-65.19130204986048!3d-26.821279783084435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225ea1076f2a0d%3A0x4aec8f14494ee662!2sClub%20Tucuman%20Lawn%20Tennis!5e0!3m2!1ses-419!2sar!4v1678563340716!5m2!1ses-419!2sar"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
-  <!-- aqui va el footer -->
+      </article>
+      <div class="clubs-items">
+        <p>Avda. Gobernador del Campo 400 (Parque 9 de Julio), San Miguel de Tucumán .</p>
+        <p>Contactanos: 381-428 2793</p>
+      </div>
+    </section>
+    </section>
   </main>
   <footer>
     <div class="footer-info">
       <div class="footer-info-items">
         <a href="https://github.com/Sxntiago01" target="_blank">
-          <img src="./assets/images/logo-github.png" alt="Santiago Gonzalez" />GitHub</a>
+          <img src="../assets/images/logo-github.png" alt="Santiago Gonzalez" />GitHub</a>
         <p class="footer-info-color">Santiago Gonzalez</p>
         <p class="footer-info-color contact-info">
           <svg class="icono" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -218,7 +201,7 @@
         </p>
       </div>
       <div class="footer-info-items">
-        <a href="https://github.com/LucasPrado960" target="_blank"><img src="./assets/images/logo-github.png"
+        <a href="https://github.com/LucasPrado960" target="_blank"><img src="../assets/images/logo-github.png"
             alt="Lucas Prado" />GitHub</a>
         <p class="footer-info-color">Lucas Prado</p>
         <p class="footer-info-color contact-info">
@@ -241,7 +224,7 @@
         </p>
       </div>
       <div class="footer-info-items">
-        <a href="https://github.com/DanielaQuiroga15" target="_blank"><img src="./assets/images/logo-github.png"
+        <a href="https://github.com/DanielaQuiroga15" target="_blank"><img src="../assets/images/logo-github.png"
             alt="Daniela Artaza Quiroga" />GitHub</a>
         <p class="footer-info-color">Daniela Artaza Quiroga</p>
         <p class="footer-info-color contact-info">
@@ -264,7 +247,7 @@
         </p>
       </div>
       <div class="footer-info-items">
-        <a href="https://github.com/Nacip21" target="_blank"><img src="./assets/images/logo-github.png"
+        <a href="https://github.com/Nacip21" target="_blank"><img src="../assets/images/logo-github.png"
             alt="Naim Cipolla" />GitHub</a>
         <p class="footer-info-color text">Naim Cipolla</p>
         <p class="footer-info-color contact-info">
@@ -288,7 +271,7 @@
       </div>
     </div>
     <div class="text-center">
-      <img class="logo" src="./assets/images/logo.png" alt="logo" />
+      <img class="logo" src="../assets/images/logo.png" alt="logo" />
     </div>
   </footer>
 </body>
