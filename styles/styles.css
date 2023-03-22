@@ -29,9 +29,9 @@ a {
 
 /*navbar*/
 .navbar-major{
-  width: 60%;
-  height: 120px;
-  margin: 0px 0px 0px 40%;
+  width: 45%;
+  height: 90px;
+  margin: 0px 0px 0px 55%;
 
 }
 .navbar-major li {
@@ -58,7 +58,7 @@ a {
 }
 
 .logo{
-  width: 120px;
+  width: 80px;
 }
 
 

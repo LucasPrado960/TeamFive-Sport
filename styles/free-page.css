@@ -11,7 +11,8 @@ header {
 }
 
 main {
-  padding: 0px 30px 30px 30px;
+  padding: 0px 0px 30px 0px;
+  background-color: #010409;
 }
 
 li {
@@ -24,9 +25,9 @@ a {
 
 /* esto es de lanavbar */
 .navbar-major {
-  width: 60%;
-  height: 120px;
-  margin: 0px 0px 0px 40%;
+  width: 45%;
+  height: 90px;
+  margin: 0px 0px 0px 55%;
 
 }
 
@@ -54,11 +55,19 @@ a {
 }
 
 .logo {
-  width: 120px;
+  width: 80px;
 
 }
 
 /* aca termina */
+.card-img {
+  background: #fff;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: calc(28vh - 90px);
+}
+
 .navbar-sports {
   width: 80%;
   height: 80px;
@@ -86,8 +95,9 @@ a {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: #d9d9d9;
-  border-radius: 20px;
+  background-color: #072f63;
+  border-radius: 10px;
+  color: #dabe8f;
 }
 
 .news-sections {
