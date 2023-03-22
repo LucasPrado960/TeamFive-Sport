@@ -68,26 +68,26 @@ a {
   height: calc(28vh - 90px);
 }
 .navbar-sports {
-  width: 80%;
+ width: 80%;
   height: 80px;
-  margin: 0 10%;
-  border-bottom: 2px solid #000000;
+  margin: 1% 10%;
+  border-bottom: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .navbar-sports img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 .sports-titles {
   width: 80%;
   height: 65px;
-  margin: 20px 10%;
+  margin: 40px 10%;
   font-size: 60px;
   display: flex;
   flex-direction: row;
@@ -97,6 +97,11 @@ a {
   background-color: #072f63;
   border-radius: 10px;
   color: #dabe8f;
+  margin-bottom: 40px;
+}
+
+.sports-titles:hover{
+  background-color: #516c8f;
 }
 
 .clubs-sections {

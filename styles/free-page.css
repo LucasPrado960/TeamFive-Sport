@@ -71,24 +71,24 @@ a {
 .navbar-sports {
   width: 80%;
   height: 80px;
-  margin: 0 10%;
-  border-bottom: 2px solid #000000;
+  margin: 1% 10%;
+  border-bottom: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .navbar-sports img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 .sports-titles {
   width: 80%;
   height: 65px;
-  margin: 20px 10%;
+  margin: 50px 10%;
   font-size: 60px;
   display: flex;
   flex-direction: row;
@@ -98,7 +98,14 @@ a {
   background-color: #072f63;
   border-radius: 10px;
   color: #dabe8f;
+  margin-bottom: 50px;
 }
+
+.sports-titles:hover{
+  background-color: #516c8f;
+
+}
+
 
 .news-sections {
   display: flex;
@@ -108,13 +115,16 @@ a {
   align-items: center;
   width: 100%;
   height: 300px;
+  
 }
 
 .news-sections-items {
   width: 30%;
   height: 100%;
   border-radius: 20px;
-  background-color: #d9d9d9;
+  background-color: #212529;
+  color: #dabe8f;
+  
 }
 
 .news-sections-items img {
@@ -130,6 +140,8 @@ a {
   margin: 0 5%;
   font-size: 22px;
   border-radius: 0 0 20px 20px;
+  padding-top: 10px;
+  justify-content: center;
 }
 
 .icono {
