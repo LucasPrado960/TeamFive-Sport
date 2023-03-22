@@ -62,6 +62,7 @@ a {
 .container-rcs{
   width: 100%;
   display: flex;
+}
 
 .navbar-sports {
   width: 80%;
@@ -109,16 +110,19 @@ a {
   margin: 0 5%;
   padding: 2.5%;
   border-radius: 20px;
-  background-color: #d9d9d9;
+  background-color: #161A23;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 22px;
 }
 
 .clubs-sections div {
   width: 95%;
+  text-align: center;
+  color: #e5ba72;
   /* height: 74%; */
 
 }

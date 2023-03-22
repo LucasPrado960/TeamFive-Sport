@@ -85,7 +85,31 @@ a {
   width: 80px;
 }
 
-
+.container-rcs{
+  display: flex;
+  justify-content: center;
+  background-color: #161A23;
+}
+.card-title{
+  text-align: center;
+  color: #e5ba72;
+}
+.card-rcs{
+  width: 75%;
+}
+.card-text{
+  text-align: center;
+  color: #e5ba72;
+}
+.buttom-rcs{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn btn-primary{
+  text-align: center;
+  color: #072f63;
+}
 
 /* Nosotros */
 
