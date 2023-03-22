@@ -136,7 +136,7 @@ footer {
 
 .footer-info {
   width: 100%;
-  height: 200px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -147,6 +147,7 @@ footer {
 .footer-info-items {
   width: 25%;
   height: 100%;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -154,7 +155,17 @@ footer {
   align-items: center;
 }
 
-  .footer-info div img {
+.footer-info-items div {
+   width: 100%;
+   height: 22%;
+}
+
+.footer-info-items div a {
+   width: 100%;
+   height: 22%;
+   color: #e5ba72;
+}
+.footer-info div img {
     width: 20px;
   }
 
