@@ -1,8 +1,7 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 header {
@@ -12,26 +11,21 @@ header {
 }
 
 main {
-  padding: 0px 30px 30px 30px;
+  padding: 5px 0px 30px 0px;
   background-color: #010409;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-
-
 }
 
 li {
   list-style: none;
-
 }
 
 a {
   text-decoration: none;
 }
 
-/*navbar*/
+
+
+/* esto es de la navbar */
 .navbar-major {
   width: 45%;
   height: 90px;
@@ -45,25 +39,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.sports-titles {
-  width: 80%;
-  height: 65px;
-  margin: 20px 10%;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #072f63;
-  border-radius: 10px;
-  color: #dabe8f;
-}
-
-.sports-titles:hover{
-  background-color: #516c8f;
 }
 
 .menu-link {
@@ -88,96 +63,30 @@ a {
   width: 100%;
   display: flex;
 
-}
-.card-img-top{
-  image-rendering: optimizeQuality;
-  image-resolution: 1000px;
-}
-/* Nosotros */
-
-.card-title {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.card-title h1 {
-  width: 35vw;
-  text-align: center;
-  background-color: #d9d9d9;
-  margin: 50px 0px;
-  border-radius: 20px;
-}
-
-.section-card {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  
-}
-
-.info-card {
-  width: 30vw;
-  height: 100vh;
-  margin: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  background-color: #161A23;  
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  transition: all 400ms ease-out;
-  color: #e5ba72;
-}
-
-.info-card:hover {
-  box-shadow: 5px 5px 20px #cfecf7(0, 0, 0, 0.4);
-  transform: translateY(-3%);
-  background: #3b4447;
-}
-
-.card-img {
-  width: 100%;
-  height: 50vh;
-  
-}
-
-.card-img img {
-  width: 100%;
-  height: 50vh;
-}
-
-.conteiner-card {
-  padding: 15px;
-  text-align: center;
-}
-
-.conteiner-card h2 {
-  margin-bottom: 15px;
-}
-
-.conteiner-card p {
-  text-align: start;
-  line-height: 1.5;
-  font-size: 3vh;
-  margin-bottom: 5px;
-}
-
-/*Formulario*/
-
-.form-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 0px;
-  flex-direction: column;
-  background-color: #010409;
-}
-
-.form-title {
+.navbar-sports {
   width: 80%;
-  height: 65px;
-  margin: 40px 40%;
+  height: 90px;
+  margin: 0% 10%;
+  border-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 5px solid #e5ba72;
+}
+
+.navbar-sports img {
+  width: 70px;
+  height: 70px;
+  margin: 7.5px 0;
+}
+
+
+.sports-titles {
+  width: 90%;
+  height: 10vh;
+  margin: 40px 5%;
   font-size: 60px;
   display: flex;
   flex-direction: row;
@@ -190,24 +99,73 @@ a {
   margin-bottom: 40px;
 }
 
-.form-title:hover{
+.sports-titles:hover {
   background-color: #516c8f;
 }
-/* footer */
 
-footer {
-  background-color: #212529;
-  padding: 20px;
+.clubs-sections {
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 2.5%;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clubs-sections div {
+  width: 95%;
+  /* height: 74%; */
+
+}
+
+.clubs-sections div:nth-child(3) {
+  /* height: 14%; */
+}
+
+.clubs-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.clubs-info h3{
+  font-size: 30px;
+}
+.checklist{
+  width: 100%;
+  height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.checklist div{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icono {
   color: #393b3e;
 }
 
+/*footer*/
+
+footer {
+  background-color: #212529;
+  padding: 20px;
+}
+
 .footer-info-color {
   color: #e5ba72;
-
 }
+
 
 .footer-info {
   width: 100%;
@@ -217,7 +175,6 @@ footer {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .footer-info-items {
@@ -246,14 +203,11 @@ footer {
   width: 20px;
 }
 
+/* aca termina */
 
 @media (min-width: 992px) {}
 
 @media (max-width: 767px) {
-  main {
-    padding: 0px 10px 20px 10px;
-  }
-
   .navbar-major {
     width: 100%;
     margin: 0px;
@@ -265,62 +219,33 @@ footer {
     width: 80px;
   }
 
-  .card-title h1 {
-    width: 80%;
-    margin: 20px 0px 0px 0px;
+  .navbar-sports {
+    width: 100%;
+    margin: 0;
   }
 
-  .section-card {
-    width: 100%;
-    height: 2800px;
+  .navbar-sports img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .sports-titles {
+    height: 45px;
+    width: 90%;
+    font-size: 25px;
+    margin: 20px 5% 10px 5%;
+  }
+
+  .news-sections {
+    height: 800px;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
   }
 
-  .card {
-    width: 95%;
-    height: 25%;
-  }
-
-  .card:hover {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    transform: translateY(0);
-  }
-
-  .card-img {
-    width: 100%;
-    height: 58%;
-  }
-
-  .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .conteiner-card {
-    width: 100%;
-    height: 42%;
-  }
-
-  .form-title h1 {
+  .news-sections-items {
     width: 80%;
-    margin: 0px 0 35px 0;
-  }
-
-  .form-container {
-    width: 93%;
-    margin: 0 3.5%;
-  }
-
-  .form-contact {
-    flex-direction: column;
-  }
-
-  .form-control-modified {
-    width: 80%;
+    height: 30%;
   }
 
   .footer-info {
