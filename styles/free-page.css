@@ -6,7 +6,7 @@ body {
 
 header {
   padding: 10px;
-  background-color: #37baec;
+  background-color: #212529;
 
 }
 
@@ -20,11 +20,6 @@ li {
 
 a {
   text-decoration: none;
-}
-
-footer {
-  background-color: #37baec;
-  padding: 20px;
 }
 
 /* esto es de lanavbar */
@@ -44,7 +39,7 @@ footer {
 }
 
 .menu-link {
-  color: #ffffff;
+  color: #e5ba72;
   font-size: 30px;
 }
 
@@ -130,9 +125,12 @@ footer {
 .icono {
   color: #393b3e;
 }
-
+footer {
+  background-color: #212529;
+  padding: 20px;
+}
 .footer-info-color {
-  color: #444442;
+  color: #e5ba72;
 
 }
 
@@ -156,10 +154,14 @@ footer {
   align-items: center;
 }
 
+  .footer-info div img {
+    width: 20px;
+  }
+
 @media (min-width: 992px) {}
 
 @media (max-width: 767px) {
-  .navbar-major {
+.navbar-major {
     width: 100%;
     margin: 0px;
     font-size: 20px;
@@ -199,16 +201,13 @@ footer {
     height: 30%;
   }
 
-  .footer-info {
+    .footer-info {
     height: 700px;
+    margin: 6px 0px;
     flex-direction: column;
   }
 
   .footer-info div {
     width: 100%;
-  }
-
-  .footer-info div img {
-    width: 60px;
   }
 }
