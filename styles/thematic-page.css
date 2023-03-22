@@ -85,8 +85,8 @@ a {
 }
 
 .sports-titles {
-  width: 80%;
-  height: 65px;
+  width: 85%;
+  height: 10vh;
   margin: 40px 10%;
   font-size: 60px;
   display: flex;
@@ -105,8 +105,8 @@ a {
 }
 
 .clubs-sections {
-  height: 400px;
-  width: 80%;
+  height: 90vh;
+  width: 85%;
   margin: 0 10%;
   display: flex;
   direction: row;
