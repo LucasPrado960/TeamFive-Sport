@@ -59,7 +59,9 @@ a {
 
 }
 
-/* aca termina */
+/* aca termina navbar */
+
+/* aca comienza main */
 .navbar-sports {
   width: 80%;
   height: 90px;
@@ -95,7 +97,7 @@ a {
   margin-bottom: 50px;
 }
 
-.sports-titles:hover{
+.sports-titles:hover {
   background-color: #516c8f;
 
 }
@@ -109,7 +111,7 @@ a {
   align-items: center;
   width: 100%;
   height: 300px;
-  
+
 }
 
 .news-sections-items {
@@ -118,7 +120,7 @@ a {
   border-radius: 20px;
   background-color: #212529;
   color: #dabe8f;
-  
+
 }
 
 .news-sections-items img {
@@ -141,10 +143,15 @@ a {
 .icono {
   color: #393b3e;
 }
+
+/* aca termina main */
+
+/* comienza footer */
 footer {
   background-color: #212529;
   padding: 20px;
 }
+
 .footer-info-color {
   color: #e5ba72;
 
@@ -172,23 +179,25 @@ footer {
 }
 
 .footer-info-items div {
-   width: 100%;
-   height: 22%;
+  width: 100%;
+  height: 22%;
 }
 
 .footer-info-items div a {
-   width: 100%;
-   height: 22%;
-   color: #e5ba72;
+  width: 100%;
+  height: 22%;
+  color: #e5ba72;
 }
-.footer-info div img {
-    width: 20px;
-  }
 
+.footer-info div img {
+  width: 20px;
+}
+
+/* termina footer */
 @media (min-width: 992px) {}
 
 @media (max-width: 767px) {
-.navbar-major {
+  .navbar-major {
     width: 100%;
     margin: 0px;
     font-size: 20px;
@@ -228,7 +237,7 @@ footer {
     height: 30%;
   }
 
-    .footer-info {
+  .footer-info {
     height: 700px;
     margin: 6px 0px;
     flex-direction: column;

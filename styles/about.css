@@ -62,7 +62,7 @@ a {
   color: #dabe8f;
 }
 
-.sports-titles:hover{
+.sports-titles:hover {
   background-color: #516c8f;
 }
 
@@ -85,40 +85,47 @@ a {
   width: 80px;
 }
 
-.container-rcs{
+/* termina navbar */
+
+/* comienza main */
+.container-rcs {
   display: flex;
   justify-content: center;
   background-color: #161A23;
 }
-.card-title{
+
+.card-title {
   text-align: center;
   color: #e5ba72;
 }
-.card-rcs{
+
+.card-rcs {
   width: 75%;
 }
-.card-text{
+
+.card-text {
   text-align: center;
   color: #e5ba72;
 }
-.buttom-rcs{
+
+.buttom-rcs {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.btn btn-primary{
+
+.btn btn-primary {
   text-align: center;
   color: #072f63;
 }
 
-/* Nosotros */
 
 .section-card {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+
 }
 
 .info-card {
@@ -127,7 +134,7 @@ a {
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
-  background-color: #161A23;  
+  background-color: #161A23;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease-out;
   color: #e5ba72;
@@ -142,7 +149,7 @@ a {
 .card-img {
   width: 100%;
   height: 50vh;
-  
+
 }
 
 .card-img img {
@@ -166,7 +173,6 @@ a {
   margin-bottom: 5px;
 }
 
-/*Formulario*/
 
 .form-container {
   width: 100%;
@@ -194,9 +200,12 @@ a {
   margin-bottom: 40px;
 }
 
-.form-title:hover{
+.form-title:hover {
   background-color: #516c8f;
 }
+
+/* termina main */
+
 /* footer */
 
 footer {
@@ -249,6 +258,8 @@ footer {
 .footer-info div img {
   width: 20px;
 }
+
+/* termina footer */
 
 
 @media (min-width: 992px) {}
